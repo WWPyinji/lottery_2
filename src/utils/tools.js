@@ -18,10 +18,10 @@ export function tit(str, strs, toastType) {
   store.dispatch('titleFlag', toastType)
 setTimeout(() => {
     store.dispatch('showToast', false);
-}, 2000);
+}, 2000);  
 }
 /**
- *
+ *  
  * @param loadingType
  */
 export function showLoading(isLoading) {
