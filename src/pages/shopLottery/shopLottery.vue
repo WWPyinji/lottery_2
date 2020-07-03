@@ -10,7 +10,7 @@
     data(){
       return {}
     },
-    components: {XHeader},
+    components: { XHeader },
     methods: {}
   }
 </script>
